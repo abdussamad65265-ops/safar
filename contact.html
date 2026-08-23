@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Abdul Samad</title>
+  <meta name="description" content="Get in touch with Abdul Samad via this accessible contact form.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="logo">Abdul Samad</div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section aria-labelledby="contact-heading">
+      <h1 id="contact-heading">Contact Me</h1>
+      <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+
+      <form action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" tabindex="1" required aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" tabindex="2" required aria-required="true">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" tabindex="3" required aria-required="true"></textarea>
+        </div>
+
+        <button type="submit" tabindex="4">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Abdul Samad. All rights reserved.</p>
+  </footer>
+</body>
+</html>
